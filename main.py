@@ -29,7 +29,7 @@ def get_raspberry_pi_serial_number():
         logging.error(f"Failed to get Raspberry Pi serial number: {e}")
         return '1000000062ee9c4c'
 
-cred = credentials.Certificate('/home/pi/Desktop/peaceful-cradle-project/peaceful-cradle-firebase-adminsdk-e3cnu-3faca0b901.json')
+cred = credentials.Certificate('/home/pi/Desktop/peaceful-cradle-project/peaceful-cradle-firebase-adminsdk-e3cnu-c11828e788.json')
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://peaceful-cradle-default-rtdb.firebaseio.com'
 })
